@@ -1,7 +1,7 @@
-# G8-TiendaOnline
+# G3-TiendaOnline
 
 ## Descripción del proyecto
-G9-TiendaOnline es una tienda creada como parte de nuestro proyecto de FP.
+G3-TiendaOnline es una tienda creada como parte de nuestro proyecto de FP.
 
 ## Estructura del proyecto
 TiendaOnline/
@@ -34,8 +34,8 @@ El progreso del proyecto se hace mediante un tablero Kanban en Github, llamado "
 
 ## Como contribuir
 1. Clona el repositorio:
-git clone https://github.com/muncu-bit/G8-TiendaOnline.git
-cd G8-TiendaOnline
+git clone https://github.com/muncu-bit/G3-TiendaOnline.git
+cd G3-TiendaOnline
 
 2. Actualízate a la rama main y crea una nueva rama que soluciona el issue:
 git checkout main
