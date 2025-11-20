@@ -1,0 +1,136 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: #F54927;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.highlight{
+    position: relative;
+    height: 500px;
+    background-image: url('images/imagen-portada.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.descripcion{
+    padding: 20px;
+    text-align: center;
+}
+
+.contacto-info, .contacto-form{
+    padding: 20px;
+    margin: 10px auto;
+    max-width: 600px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+label{
+    display: block;
+    margin-top: 10px;
+}
+
+input[type="text"], input[type="email"], textarea{
+    width: 90%;
+    max-width: 600px;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button{
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #2c3e50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.note{
+    font-size: 0.9em;
+    color: #eee;
+}
+
+.catalogo{
+    padding: 20px;
+    background-color: #f5f5f5;
+}
+
+.productos{
+    display: grid;
+    gap: 20px;
+}
+
+.producto{
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.producto img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+.producto h3{
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.producto p{
+    color: #333;
+    font-weight: bold;
+}
+
+.agregar{
+    background-color: #28a745;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.carrito{
+    position: fixed;
+    top: 100px;
+    right: 20px;
+    width: 300px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.carrito h2{
+    font-size: 1.5em;
+    margin: 0;
+}
+
+.items-carrito{
+    margin-bottom: 10px;
+}
+
+.total{
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.vaciar{
+    background-color: #d9534f;
+}
